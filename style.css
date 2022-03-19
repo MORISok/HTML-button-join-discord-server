@@ -1,0 +1,30 @@
+* {
+      padding: 0;
+      margin: 0;
+    }
+
+    body {
+      text-align: center;
+      background-color: black;
+      color: white;
+      font-size: 40px;
+    }
+
+    .btn {
+      padding: 15px 40px;
+      border-style: none;
+      margin-top: 50px;
+      background-color: aqua;
+      border-radius: 20px;
+      box-shadow: 0 0 0 6px black, 0 0 0 12px aqua;
+      font-size: 40px;
+      font-family: arial;
+      text-transform: uppercase;
+      transition: 0.3s;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      box-shadow: 0 0 0 10px black, 0 0 0 18px aqua;
+      border-radius: 40px;
+    }
